@@ -24,14 +24,14 @@ Project
     │   └── js
     │       ├── barChart.js             # 바 차트를 렌더링하기 위한 함수형 코드
     │       ├── index.js                # 대시보드에 차트를 렌더링하는 메인 스크립트를 포함하며, 
-각 차트 렌더링 함수들을 실행하는 역할
+    │       │                             각 차트 렌더링 함수들을 실행하는 역할
     │       ├── pieChart.js             # 파이 차트를 렌더링하기 위한 함수형 코드
-    │       └── updateBarChart.js       # 파이 차트의 선택(클릭) 인터랙션을 기반으로 
-바 차트를 업데이트하는 함수
+    │       └── updateBarChart.js       # 파이 차트의 선택(클릭) 인터랙션을 기반으로
+    │                                     바 차트를 업데이트하는 함수
     │
     ├── tempates
     │   └── index.html # 두 개의 변수 pieChartDataUrl 과 barChartDataUrl 을 사용하여 라우팅 URL을 통해 JSON 응답 데이터를 가져와 차트를 렌더링하는 템플릿
-
+    │
     │
     ├── app.py
     ├── README.md
